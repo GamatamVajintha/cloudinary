@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seven_wonders",
+  "info": {
+    "singularName": "seven-wonder",
+    "pluralName": "seven-wonders",
+    "displayName": "SevenWonder"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
